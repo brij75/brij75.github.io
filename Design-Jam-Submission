@@ -1,0 +1,163 @@
+index.html
+
+ <!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Portfolio website</title>
+<link rel="stylesheet" type="text/css" href="css/style1.css">
+
+<script src="https://kit.fontawesome.com/c8e4d183c2.js"
+crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+  <section>
+  <!-- navigation --->
+    <nav>
+      <!-- logo --->
+      <img src="image/logo.png" class="logo" alt="Go Bro">
+      <!-- Menu --->
+      <ul>
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#skill">Skills</a></li>
+        <li><a href="#Blog">Blogs</a></li>
+        <li><a href="#contact">Contact us</a></li>
+      </ul>
+    </nav>
+    <!-- text ---->
+    <div class="text-container">
+      <p>Hello,</p>
+      <p>I'M Brijnandan</p>
+      <p>I m Front-End Devloper <br> &Designer</p>
+      <button class="hire-btn">Hire me</button>
+      <button class="down-cv">Download CV</button>
+    </div>
+    <!-- model--->
+    <img src="image/kol.png" class="model" alt="Brijnandan">
+  </section>
+
+  <!----about section----->
+  <div class="about-container" id="About">
+    <!----image--------->
+      <img src="image/kol1.png">
+    <!--------about text------>
+        <div class="about-text">
+          <p>About Me</p>
+          <p>Devloper and  Designer</p>
+          <p>Hello, My name is Brijnandan Gupta from Mumbai. I am a Student of Vidyalankar School of Information Technology.
+            I love to do Coding and Designing things. In my free time i love to play Indoor and Outdoor games and
+            also love to listen music. I am very hard working person. If you give me one chance i can show you my
+            hard work. And I will be Assest to your company. </p>
+        <!-------button------>
+          <button>Hire Me</button>
+          <button>Download CV</button>
+        </div>
+  </div>
+
+  <!-----------Skills--------->
+  <div class="skill" id="skill">
+    <h1>My Skills</h1>
+    <!----------Skills-text------------>
+    <div class="skill-text">
+
+      <li>
+        <h3>HTML</h3><span class="bar"><span class="html"></span></span>
+      </li>
+      <li>
+        <h3>CSS</h3><span class="bar"><span class="css"></span></span>
+      </li>
+      <li>
+        <h3>JQUERY</h3><span class="bar"><span class="jquery"></span></span>
+      </li>
+      <li>
+        <h3>R STUDIO</h3><span class="bar"><span class="rstudio"></span></span>
+      </li>
+      <li>
+        <h3>PYTHON</h3><span class="bar"><span class="python"></span></span>
+      </li>
+    </div>
+  </div>
+
+  <!------------Blogs---------------->
+  <div class="Blog" id="Blog">
+    <!---------text----------->
+    <div class="Blog-text">
+
+     <p>Blog</p>
+     <p> If you want to see in what type of blogs I am interested in you can just
+       see all my blogs below here. And I think you all will also like this. </p>
+     <p> Interesting Blog </p>
+    </div>
+    <!---------------box----------->
+    <div class="box-container">
+      <!------------1-------------->
+
+        <div class="box-1">
+          <span>1</span>
+          <p class="heading">NowyTeatr</p>
+          <p class="details">This Blog is all about to
+             show different online event with Date
+             and time and who will be the mentor.</p>
+          <button>Read More</button>
+        </div>
+      <!------------2-------------->
+        <div class="box-2">
+          <span>2</span>
+          <p class="heading">Designspiration</p>
+          <p class="details">This Blog contain all
+              different and unique designs.</p>
+          <button>Read More</button>
+        </div>
+
+      <!------------3-------------->
+        <div class="box-3">
+          <span>3</span>
+          <p class="heading">Jorden Staniscia</p>
+          <p class="details">This Blog is all about
+            the Designer which lives in miami
+            and he share his thought and ideas.</p>
+          <button>Read More</button>
+        </div>
+    </div>
+
+  </div>
+
+  <!--------Contact Me--------->
+  <div class="contact-me" id="contact">
+    <p>If you want to suggest me any project to do</p>
+    <button>Contact Me</button>
+  </div>
+
+  <!---------------footer---------->
+  <footer>
+    <p>GO BRO</p>
+    <p>I am very hard working person. You all will really like my work, if you all
+      like my work please comment and share </p>
+
+    <!------------social--------->
+    <div class="social-icons">
+
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-youtube"></i></a>
+    </div>
+
+    <!---------------copyright-------->
+    <p class="copyright">Copyright by GO BRO</p>
+  </footer>
+
+  <!-----social bar-------->
+  <div class="a-social-b">
+    <a href="#"><i class="fab fa-facebook-f"></i></a>
+    <a href="#"><i class="fab fa-twitter"></i></a>
+    <a href="#"><i class="fab fa-instagram"></i></a>
+    <a href="#"><i class="fab fa-youtube"></i></a>
+
+  </div>
+
+</body>
+</html>
